@@ -70,8 +70,8 @@ h1 {
   background-color: rgb(64, 0, 94);
 }
 
-/* the target img element is specific to the image on the about me page. */
-img {
+/* the class img is specific to the image on the about me page. */
+.img {
   width: 200px;
   height: 200px;
   margin: 15px;
@@ -92,9 +92,9 @@ a {
   font-size: 18px;
 }
 /* the class img is specific to the images on the portfolio page. */
-.img {
-  width: 350px;
-  height: 350px;
+.port {
+  width: 90%;
+  /* height: 500px; */
 }
 
 /* footer is specific to the footer section of each page. */
