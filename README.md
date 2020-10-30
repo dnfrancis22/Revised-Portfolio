@@ -12,7 +12,7 @@ Click on the settings tab.
 Scroll down to the section that says GitHub Pages.
 Click on the link in the green box next to "your site is published at".
 
-Or you can just click here: https://dnfrancis22.github.io/Revised-Portfolio/portfolio.html
+Or you can just click here: https://dnfrancis22.github.io/Revised-Portfolio/
 
 **Usage**
 
