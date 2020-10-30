@@ -98,7 +98,7 @@ a {
   border-top: 5px solid rgb(44, 1, 122);
   font-size: 18px;
   text-align: center;
-  position: absolute;
+  position: fixed;
   right: 0;
   bottom: 0;
   left: 0;
