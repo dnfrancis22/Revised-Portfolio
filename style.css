@@ -1,6 +1,6 @@
 body {
-  background-image: url(./assets/Background.JPG);
-  background-size: 25%;
+  background-image: url(./assets/pawel-czerwinski-bX9B9c-YasY-unsplash.jpg);
+  background-size: 100%;
   position: relative;
   min-height: 100%;
   min-height: 100vh;
@@ -13,10 +13,8 @@ body {
   margin-left: 15px;
   margin-top: 9px;
   padding: 10px;
-  /* padding-bottom: 10px; */
   color: white;
   background-color: rgb(44, 1, 122);
-  /* font-family: Georgia, "Times New Roman", Times, serif; */
 }
 .name:hover {
   text-decoration: none;
@@ -25,9 +23,7 @@ body {
 }
 /* the container is the white box on each page that contains all of the content for each page. */
 #container {
-  width: 60%;
-  /* display: inline-block; */
-  /* margin-left: 35px; */
+  width: 80%;
   border-radius: 10px;
   background-color: white;
   padding: 25px;
@@ -39,7 +35,6 @@ h1 {
   color: rgb(44, 1, 122);
   font-size: 40px;
   font-weight: normal;
-  /* font-family: Georgia, "Times New Roman", Times, serif; */
   border-bottom: 1px solid rgb(134, 134, 134);
   padding-bottom: 25px;
 }
@@ -94,27 +89,17 @@ a {
 /* the class img is specific to the images on the portfolio page. */
 .port {
   width: 90%;
-  /* height: 500px; */
+
 }
 
 /* footer is specific to the footer section of each page. */
 #footer {
-  background-color: rgb(68, 68, 68);
-  border-top: 10px solid rgb(44, 1, 122);
+  background-color: rgb(255, 255, 255);
+  border-top: 5px solid rgb(44, 1, 122);
   font-size: 18px;
   text-align: center;
-  /* position: fixed; */
   right: 0;
   bottom: 0;
   left: 0;
 }
-/* The media query was added so that the container that holds the main content of each page fills the screen when the page is viewed at its smallest size. */
-@media screen and (max-width: 768px) {
-  #container {
-    width: 90%;
-    margin-left: 15px;
-  }
-  .img {
-    margin-left: 30px;
-  }
-}
+
